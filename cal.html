@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cal.css">
+</head>
+<body>
+    <div id="d21">
+        <div>
+            <input type="text" name="" placeholder="0" id="input">
+        </div><br>
+        <div >
+            <button id="d5" onclick="clearone()">C</button>
+            <button id="d5" onclick="clearall()">CE</button>
+            <button id="d5" onclick="turnOn()" >ON</button>
+            <button id="d5" onclick="turnOff()" >OFF</button>
+        </div><br>
+        <div >
+            <button id="d5" onclick="getvalue('7')">7</button>
+            <button id="d5" onclick="getvalue('8')">8</button>
+            <button id="d5" onclick="getvalue('9')">9</button>
+            <button id="d5" onclick="getvalue('+')">+</button>
+        </div><br>
+        <div >
+            <button id="d5" onclick="getvalue('4')">4</button>
+            <button id="d5" onclick="getvalue('5')">5</button>
+            <button id="d5" onclick="getvalue('6')">6</button>
+            <button id="d5" onclick="getvalue('-')">-</button>
+        </div><br>
+        <div >
+            <button id="d5" onclick="getvalue('1')">1</button>
+            <button id="d5" onclick="getvalue('2')">2</button>
+            <button id="d5" onclick="getvalue('3')">3</button>
+            <button id="d5" onclick="getvalue('*')">*</button>
+        </div><br>
+        <div >
+            <button id="d5" onclick="getvalue('.')">.</button>
+            <button id="d5" onclick="getvalue('0')">0</button>
+            <button id="d5" onclick="getvalue('/')">/</button>
+            <button id="d5" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="./cal.js"></script>
+</body>
+</html>
